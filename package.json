@@ -8,6 +8,9 @@
     "prod": "NODE_ENV=production PORT=3005 node ./server/server.js",
     "start": "rm -rf ./dist/* && npm run build && npm run prod"
   },
+  "engines": {
+    "node": "6.9.1"
+  },
   "main": "index.js",
   "author": "Jarrett Gliner <jarrett.gliner@gmail.com>",
   "license": "MIT",
